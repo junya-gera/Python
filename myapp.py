@@ -19,9 +19,18 @@ print(True or False) # True
 print(not True) # False
 
 name = "sinomiya"
-score = 52.8
+# ()の中は入力時のメッセージ
+score = int(input("score?"))
+# if score > 80:
+#   print("Great!")
+# elif score > 60:
+#   print("Good!")
+# else:
+#   print("so so...")
+print("Great!" if score > 80 else "so so...")
 
 # 文字列の中で変数を使う。文字列→%s,小数→%f,整数→%d。最後に%()の中に順番に変数を入れる
 print("name: %s, score: %f" %(name,score))
 # この書き方もできる
 print("name: {0}, score: {1}".format(name,score))
+
