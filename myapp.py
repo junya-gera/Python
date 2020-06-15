@@ -34,3 +34,11 @@ print("name: %s, score: %f" %(name,score))
 # この書き方もできる
 print("name: {0}, score: {1}".format(name,score))
 
+i = 0
+while i < 10:
+  if i == 5:
+    break
+  print(i)
+  i += 1
+else:
+  print("end")
