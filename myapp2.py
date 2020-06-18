@@ -15,3 +15,15 @@ def say_hello():
 
 msg = say_hello()
 print(msg)
+
+# グローバル変数
+name = "kaguya"
+
+def say_name():
+  # グローバル変数を関数の中で変更するにはglobalをつける必要がある
+  global name
+  name = "hello kaguya"
+  print(name)
+
+say_name()
+print(name)
