@@ -9,6 +9,9 @@ class User:
     # インスタンス変数
     self.name = name
 
+  def say_hi(self):
+    print("hi {0}".format(self.name))
+
 # tom = User()
 # tom.name = "tom"
 # tom.score = 20
