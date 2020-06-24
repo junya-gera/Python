@@ -19,6 +19,8 @@ class User:
 # tom.name = "tom"
 # tom.score = 20
 
+
+
 # bob = User()
 # bob.name = "bob"
 # bob.level = 5
